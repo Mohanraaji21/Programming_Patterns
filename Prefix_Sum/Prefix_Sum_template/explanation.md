@@ -18,14 +18,14 @@ prefix[i] = arr[0] + arr[1] + ... + arr[i]
 
 
 So step-by-step:
-
+"""
 Index (i)	arr[i]	prefix[i] = sum up to i
 0	2	2
 1	4	2 + 4 = 6
 2	6	6 + 6 = 12
 3	8	12 + 8 = 20
 4	10	20 + 10 = 30
-
+"""
 ✅ prefix = [2, 6, 12, 20, 30]
 
 🧩 How does it help?
